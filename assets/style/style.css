@@ -199,10 +199,20 @@ h2{
 	font-weight: normal;
 }
 
-.application{
-    display: grid;
+.application2{
+    display: block;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
     width: 50%;
+}
+
+.divider {
+    flex-grow: 1;
+    border-bottom: 1px solid black;
+    margin: 5px
+  }
+.result-window{
+    display: flex;
+    align-items: center;
 }
