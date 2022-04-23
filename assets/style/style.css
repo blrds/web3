@@ -1,0 +1,208 @@
+body {
+    font-family: 'Times New Roman', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.lab-name {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.image-logo {
+    padding-right: 25px;
+    margin: auto 0;
+    width: 200px;
+}
+
+.text-logo{
+    font-weight: bold;    
+}
+
+.text-logo1{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1010px) {
+    .image-logo {
+        margin: auto;
+        max-width: 200px;
+        width: 25%;
+		grid-row: 3;
+		margin-top: 1em;
+		margin-bottom: 1em;
+    }
+    
+    .container {
+        width: 100%;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+	.text-logo {
+        width: 100%;
+        grid-column: 1;
+        grid-row: 2;
+        display: grid;
+		text-align: center;
+        font-size: 2em;
+    }
+    .text-logo1 {
+        text-align: center;
+        width: 100%;
+        grid-row: 1;
+        grid-column: 1;
+        display: grid;
+        font-size: 2.8vw;
+    }
+}
+
+@media screen and (min-width: 1010px) {
+    
+    
+    .image-logo {
+        margin: auto;
+        max-width: 200px;
+        width: 25%;
+		grid-row: 3;
+		margin-top: 1em;
+		margin-bottom: 1em;
+    }
+	.text-logo {
+        width: 100%;
+        grid-column: 1;
+        grid-row: 2;
+        display: grid;
+		text-align: center;
+        font-size: 2em;
+    }
+    .text-logo+ {
+        width: 100%;
+        grid-column: 1;
+        grid-row: 1;
+        display: grid;
+        font-size: 1.62em;
+    }
+}
+
+@media screen and (min-width: 1219px) {
+    .image-logo {
+        margin: auto;
+        max-width: 200px;
+        width: 25%;
+		grid-row: 3;
+		margin-top: 1em;
+		margin-bottom: 1em;
+    }
+
+	.text-logo {
+        width: 100%;
+        grid-column: 1;
+        grid-row: 2;
+        display: grid;
+		text-align: center;
+        font-size: 1.8em;
+    }
+    .text-logo1 {
+        width: 100%;
+        grid-column: 1;
+        grid-row: 1;
+        display: grid;
+		text-align: center;
+        font-size: 1.5em;
+    }
+}
+
+.text > * {
+    align-self: center;
+}
+
+.people {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.students {
+    grid-column: 1;
+    font-weight: lighter;
+}
+
+.teacher {
+    grid-column: 2;
+}
+
+.task-topic {
+   text-align: center;
+}
+
+.task-list {
+    margin-top: 50px;
+}
+
+.tasks {
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+a {
+    font-size: 20px;
+    transition: color 0.2s ease-in;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+a:hover {
+    color: black;
+}
+
+.result-text {
+    font-size: 16px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.result-img {
+    width: 100%;
+}
+
+.results {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.result-item {
+    margin: auto;
+    margin-top: 10px;
+}
+
+h2{
+	font-weight: normal;
+}
+
+.application{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 50%;
+}
